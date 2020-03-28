@@ -78,6 +78,20 @@ body {
     border-radius: 5px;
 }
 
+#icons-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px;
+    
+}
+
+#icons-container > i{
+    padding: 30px;
+}
+
 /* #home-cover > div > p:first-child {
     color: blueviolet;
 }
