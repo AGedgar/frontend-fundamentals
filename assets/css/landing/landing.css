@@ -4,3 +4,11 @@
     background-size: cover;
     background-position: bottom;
 }
+
+.card{
+    margin: 30px;
+}
+
+.container img{
+    height: 200px;
+}
