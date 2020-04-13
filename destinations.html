@@ -6,11 +6,40 @@
     <title>Destinationst</title>
     <link rel="stylesheet" href="./assets/css/destinations/destinations.css">
     <link rel="stylesheet" href="./assets/css/common/footer.css">
+    <link rel="stylesheet" href="./assets/css/queries/queries.css">
+    <link rel="stylesheet" href="./assets/css/common/header.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
   </head>
   <body>
     <!-- <div>Destinos preferidos</div> -->
       <!-- <div>Mira nuestros destinos favoritos alrededor del mundo</div> -->
   
+      <!-- Navbar -->
+      <nav>
+        <div>
+          <a href="landing.html">
+          <img id="bedu-logo" src="./assets/images/bedu_logo.png" alt="bedu logo">
+        </a>
+        </div>
+
+        <div class="mobile">
+          <a href="#">SignIn</a>
+          <a href="signUp.html">SignUp</a>
+        </div>
+        <div class="dropdown desktop">
+          <button class="dropbtn">
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">SignIn</a>
+            <a href="signUp.html">SignUp</a>
+          </div>
+        </div>
+      </nav>
+      <!-- /Navbar -->
+
+      <!-- Grid Destinations -->
         <h2>Destinos preferidos</h2>
         <h3>Mira nuestros destinos favoritos alrededor del mundo</h3>
       <div class="container">
@@ -51,15 +80,21 @@
     <p>Dubai</p>
   </div>
     </div>
+
+    <!-- /Grid Destinations -->
   
-    <footer>
-      <div class="info-footer">
-          <ul><li>Bedu travels</li></ul>
-          <ul><li>hola@bedutravels.com</li></ul>
+    <!-- Footer -->
+      <div class="footer-container">
+        <div class="info-footer">
+            <ul><li>Bedu travels</li></ul>
+            <ul><li>hola@bedutravels.com</li></ul>
+        </div>
+      <div class="logo-container">
+        <a class="facebook-link logo-footer" href="https://www.facebook.com" target="blank"><img src="/assets/images/facebook.svg" alt="facebook logo"></a>
+        <a class="twitter-link logo-footer" href="https://www.twitter.com" target="blank"><img src="/assets/images/twitter.svg" alt="twitter-logo"></a>
+        <a class="instagram-link logo-footer" href="https://www.instagram.com" target="blank"><img src="/assets/images/instagram.svg" alt="instagram logo"></a>
+      </div>
     </div>
-      <a class="facebook-link logo-footer" href="https://www.facebook.com" target="blank"><img src="/assets/images/facebook.svg" alt="facebook logo"></a>
-      <a class="twitter-link logo-footer" href="https://www.twitter.com" target="blank"><img src="/assets/images/twitter.svg" alt="twitter-logo"></a>
-      <a class="instagram-link logo-footer" href="https://www.instagram.com" target="blank"><img src="/assets/images/instagram.svg" alt="instagram logo"></a>
-    </footer>
+    <!-- /Footer -->
   </body>
   </html>
