@@ -1,0 +1,16 @@
+@import '../variables/variables';
+
+.background-jumbotron{
+    background-image: url("../../images/landing/bosquedestino.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.card{
+    margin: map-get($global-sizes,mdium);
+}
+
+.container img{
+    height: 200px;
+}

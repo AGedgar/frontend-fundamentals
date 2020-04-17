@@ -1,0 +1,87 @@
+@import '../variables/variables';
+@import '../resets/resets';
+@import '../functions/functions';
+@import '../mixins/mixins.scss';
+@import '../common/header';
+@import '../common/footer';
+@import '../destinations/destinations';
+@import '../landing/landing';
+@import '../queries/queries';
+@import '../signUp/signUp';
+
+body {
+    font-family: $roboto;
+}
+
+.title-font{
+    font-size: $textBig;
+}
+
+.subtitle-font{
+    font-size: $textMedium;
+}
+
+// 
+
+#home-cover {
+    background-image: url("/assets/images/img_cover_home.jpg");
+    width: $full-width;
+    height: 75vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    @include flex;
+    flex-direction: column;
+    text-align: center;
+    color: $colorWhite;
+}
+
+.text-shadow {
+    text-shadow: 1px 1px 4px $colorGrey;
+}
+
+
+.margin-bottom-sm {
+    margin-bottom: 15px;
+}
+
+.margin-bottom-md {
+    margin-bottom: 30px;
+}
+
+.searchbar {
+    background-color: $colorWhite;
+    padding-left: 10px;
+    padding: 3px;
+    width: 500px;
+    @include flex(space-between);
+    box-shadow: 14px 14px 28px $colorGrey;
+    border-radius: 5px;
+}
+
+.searchbar > input{
+    width: $full-width;
+    @include margin-padding(0,0);
+    font-size: $textSmall;
+    border: none;
+    height: $searchBar-width;
+}
+
+.search-button{
+    height: $searchBar-height;
+    width: $searchBar-width;
+    background-color: $colorBlackish;
+    color: $colorWhite;
+    border-radius: 5px;
+}
+
+#icons-container{
+    @include flex(space-around);
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px;
+    
+}
+
+#icons-container > i{
+    padding: 30px;
+}

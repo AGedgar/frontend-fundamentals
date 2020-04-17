@@ -1,0 +1,58 @@
+@import '../variables/variables';
+@import '../mixins/mixins.scss';
+
+body {
+    background-color: $bodyBackgroundColor;
+}
+
+.dropbtn {
+    font-size: 19px;
+    color: $colorWhite;
+    background-color: $headerFooterColor;
+    margin-right: 30px;
+    padding: 14px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:$colorWhite;
+    min-width: 160px;
+    right: 0;
+  }
+  
+  .dropdown-content > a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 12px 16px;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+
+@media screen and (max-width: 576px){
+    
+        .searchbar {
+            width: 300px;
+        }
+        .mobile{
+            display: none;
+        }
+
+    
+}
+
+@media screen and (min-width: 577px){
+    
+    .desktop{
+        display: none;
+    }
+
+}
+

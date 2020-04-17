@@ -1,0 +1,3 @@
+@function getSize($size){
+    @return get-map(&global-sizes, $size)
+}

@@ -1,0 +1,23 @@
+@import '../variables/variables';
+@import '../mixins/mixins.scss';
+
+nav {
+    background-color: $headerFooterColor;
+    @include width-height(100%,50px);
+    @include flex(flex-end);
+}
+
+#bedu-logo {
+    margin-left: map-get($global-sizes , smll);
+    width: map-get($global-sizes ,huge); /*width ya hace en automatico el height*/
+}
+
+nav > div > a {
+    color: $colorWhite;
+    text-decoration: none;
+    padding-right: map-get($global-sizes , smll);
+}
+
+nav > div:first-child {
+    flex-grow: 3;/* va a separar por tres tamaños iguales*/
+}

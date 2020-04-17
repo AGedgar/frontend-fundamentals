@@ -1,0 +1,82 @@
+@import '../resets/resets';
+@import '../variables/variables';
+@import '../mixins/mixins.scss';
+
+body{
+    font-family: $roboto;
+    font-size: $textMedium;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+header {
+    @include flex();
+    background-color: $headerFooterColor;
+    @include width-height(100%,50px);
+    margin-bottom: 50px;
+}
+
+#bedu-logo {
+    width: 60px; /*width ya hace en automatico el height*/
+}
+
+.btn {
+    width: $full-width;
+}
+
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    padding: 30px 30px;
+    background-color: #2c2c2c;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.logo-container{
+    display: flex;
+}
+
+.info-footer{
+    /* padding-right: 100px; */
+    color: $colorWhite;
+    font-size: $textMedium;
+}
+
+ .logo-footer{
+    padding-left: 20px;
+    width: 60px;
+} 
+
+// @media screen and (max-width: 576px){
+//    .footer-container{
+//       padding: 30px 0;
+//    }
+   
+//     .logo-container{
+//         display: inline-grid;
+//         width: 100px;
+//         height: 150px;
+//         padding-right: 0;
+//    }
+   
+// }
+
+@media screen and (max-width: 286px){
+    .footer-container{
+       display: none;
+    }
+    
+ }
+
+
+
+
+

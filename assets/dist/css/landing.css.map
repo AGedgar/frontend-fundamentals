@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,qBAAqB,CAAA;EACjB,gBAAgB,EAAE,6CAA6C;EAC/D,iBAAiB,EAAE,SAAS;EAC5B,eAAe,EAAE,KAAK;EACtB,mBAAmB,EAAE,MAAM;CAC9B;;AAED,AAAA,KAAK,CAAA;EACD,MAAM,ECLe,IAAI;CDM5B;;AAED,AAAA,UAAU,CAAC,GAAG,CAAA;EACV,MAAM,EAAE,KAAK;CAChB",
+    "sources": [
+        "../../sass/landing/landing.scss",
+        "../../sass/variables/_variables.scss"
+    ],
+    "names": [],
+    "file": "landing.css"
+}
